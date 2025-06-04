@@ -423,11 +423,11 @@ const MainFeature = () => {
                                       (isBlueZone && player.color === 'blue') ||
                                       (isGreenZone && player.color === 'green') ||
                                       (isYellowZone && player.color === 'yellow')
-                                    ) && tokenIndex === (Math.floor((row % 6) / 2) * 2 + Math.floor((col % 6) / 2))
+) && tokenIndex === (Math.floor((row % 6) / 2) * 2 + Math.floor((col % 6) / 2))
                                     
                                     return shouldShow ? (
                                       <motion.div
-                                        key={`${player.playerId || playerIndex}-${token.tokenId || tokenIndex}-home`}
+                                        key={`home-${player.playerId || `player-${playerIndex}`}-${token.tokenId || `token-${tokenIndex}`}-${row}-${col}`}
                                         className={`
                                           w-3 h-3 sm:w-4 sm:h-4 lg:w-5 lg:h-5 rounded-full border border-white shadow-sm cursor-pointer
                                           ${player.color === 'red' ? 'bg-players-red' : ''}
@@ -556,10 +556,10 @@ const MainFeature = () => {
 <div className="space-y-3">
                         {currentGame.players?.map((player, index) => (
                           <motion.div
-                            key={`${player.playerId || `player-${index}`}-status`}
+                            key={`player-status-${player.playerId || `player-${index}`}-${index}`}
                             className={`
                               p-3 rounded-lg border-2 transition-all duration-300
-                              ${index === currentPlayer 
+                              ${index === currentPlayer
                                 ? 'border-primary bg-primary/10 shadow-md' 
                                 : 'border-gray-200 bg-white'
                               }
@@ -597,11 +597,11 @@ const MainFeature = () => {
                               )}
                             </div>
                             
-                            {/* Token status */}
+{/* Token status */}
                             <div className="mt-2 flex space-x-1">
                               {player.tokens?.map((token, tokenIndex) => (
                                 <div
-                                  key={`${player.playerId || `player-${index}`}-${token.tokenId || `token-${tokenIndex}`}-indicator`}
+                                  key={`token-indicator-${player.playerId || `player-${index}`}-${token.tokenId || `token-${tokenIndex}`}-${index}-${tokenIndex}`}
                                   className={`
                                     w-2 h-2 rounded-full
                                     ${token.isHome ? 'bg-green-500' : 
