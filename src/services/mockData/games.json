@@ -1,0 +1,374 @@
+[
+  {
+    "gameId": "game-001",
+    "status": "active",
+    "currentTurn": "player-001",
+    "boardState": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    "players": [
+      {
+        "playerId": "player-001",
+        "playerName": "Alex Thunder",
+        "color": "red",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+        "isActive": true,
+        "tokens": [
+          {
+            "tokenId": "token-001",
+            "position": -1,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-002",
+            "position": -1,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-003",
+            "position": -1,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-004",
+            "position": -1,
+            "isHome": false,
+            "isSafe": false
+          }
+        ]
+      },
+      {
+        "playerId": "player-002",
+        "playerName": "Sarah Victory",
+        "color": "blue",
+        "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612c5b3?w=150&h=150&fit=crop&crop=face",
+        "isActive": true,
+        "tokens": [
+          {
+            "tokenId": "token-005",
+            "position": -1,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-006",
+            "position": -1,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-007",
+            "position": -1,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-008",
+            "position": -1,
+            "isHome": false,
+            "isSafe": false
+          }
+        ]
+      },
+      {
+        "playerId": "player-003",
+        "playerName": "Mike Champion",
+        "color": "green",
+        "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+        "isActive": true,
+        "tokens": [
+          {
+            "tokenId": "token-009",
+            "position": -1,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-010",
+            "position": -1,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-011",
+            "position": -1,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-012",
+            "position": -1,
+            "isHome": false,
+            "isSafe": false
+          }
+        ]
+      },
+      {
+        "playerId": "player-004",
+        "playerName": "Luna Stardust",
+        "color": "yellow",
+        "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+        "isActive": true,
+        "tokens": [
+          {
+            "tokenId": "token-013",
+            "position": -1,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-014",
+            "position": -1,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-015",
+            "position": -1,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-016",
+            "position": -1,
+            "isHome": false,
+            "isSafe": false
+          }
+        ]
+      }
+    ],
+    "createdAt": "2024-01-15T10:30:00Z",
+    "gameRules": {
+      "maxPlayers": 4,
+      "tokenCount": 4,
+      "boardSize": 56,
+      "safeZones": [1, 9, 14, 22, 27, 35, 40, 48],
+      "homeStretch": {
+        "red": [51, 52, 53, 54, 55],
+        "blue": [12, 13, 14, 15, 16],
+        "green": [25, 26, 27, 28, 29],
+        "yellow": [38, 39, 40, 41, 42]
+      }
+    }
+  },
+  {
+    "gameId": "game-002",
+    "status": "waiting",
+    "currentTurn": null,
+    "boardState": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    "players": [
+      {
+        "playerId": "player-005",
+        "playerName": "Zen Master",
+        "color": "red",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+        "isActive": true,
+        "tokens": [
+          {
+            "tokenId": "token-017",
+            "position": -1,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-018",
+            "position": -1,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-019",
+            "position": -1,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-020",
+            "position": -1,
+            "isHome": false,
+            "isSafe": false
+          }
+        ]
+      },
+      {
+        "playerId": "player-006",
+        "playerName": "Phoenix Rising",
+        "color": "blue",
+        "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
+        "isActive": true,
+        "tokens": [
+          {
+            "tokenId": "token-021",
+            "position": -1,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-022",
+            "position": -1,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-023",
+            "position": -1,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-024",
+            "position": -1,
+            "isHome": false,
+            "isSafe": false
+          }
+        ]
+      }
+    ],
+    "createdAt": "2024-01-15T11:15:00Z"
+  },
+  {
+    "gameId": "game-003",
+    "status": "completed",
+    "currentTurn": null,
+    "winner": "player-007",
+    "boardState": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    "players": [
+      {
+        "playerId": "player-007",
+        "playerName": "Dragon Slayer",
+        "color": "red",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+        "isActive": true,
+        "tokens": [
+          {
+            "tokenId": "token-025",
+            "position": 55,
+            "isHome": true,
+            "isSafe": true
+          },
+          {
+            "tokenId": "token-026",
+            "position": 55,
+            "isHome": true,
+            "isSafe": true
+          },
+          {
+            "tokenId": "token-027",
+            "position": 55,
+            "isHome": true,
+            "isSafe": true
+          },
+          {
+            "tokenId": "token-028",
+            "position": 55,
+            "isHome": true,
+            "isSafe": true
+          }
+        ]
+      },
+      {
+        "playerId": "player-008",
+        "playerName": "Cosmic Wanderer",
+        "color": "blue",
+        "avatar": "https://images.unsplash.com/photo-1557862921-37829c790f19?w=150&h=150&fit=crop&crop=face",
+        "isActive": true,
+        "tokens": [
+          {
+            "tokenId": "token-029",
+            "position": 45,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-030",
+            "position": 32,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-031",
+            "position": 18,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-032",
+            "position": -1,
+            "isHome": false,
+            "isSafe": false
+          }
+        ]
+      },
+      {
+        "playerId": "player-009",
+        "playerName": "Storm Breaker",
+        "color": "green",
+        "avatar": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=150&h=150&fit=crop&crop=face",
+        "isActive": true,
+        "tokens": [
+          {
+            "tokenId": "token-033",
+            "position": 38,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-034",
+            "position": 25,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-035",
+            "position": 12,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-036",
+            "position": 6,
+            "isHome": false,
+            "isSafe": false
+          }
+        ]
+      },
+      {
+        "playerId": "player-010",
+        "playerName": "Golden Eagle",
+        "color": "yellow",
+        "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop&crop=face",
+        "isActive": true,
+        "tokens": [
+          {
+            "tokenId": "token-037",
+            "position": 42,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-038",
+            "position": 29,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-039",
+            "position": 15,
+            "isHome": false,
+            "isSafe": false
+          },
+          {
+            "tokenId": "token-040",
+            "position": 3,
+            "isHome": false,
+            "isSafe": false
+          }
+        ]
+      }
+    ],
+    "createdAt": "2024-01-15T09:00:00Z",
+    "completedAt": "2024-01-15T09:34:00Z",
+    "duration": 2040
+  }
+]

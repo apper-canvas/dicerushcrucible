@@ -1,0 +1,302 @@
+[
+  {
+    "playerId": "player-001",
+    "playerName": "Alex Thunder",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+    "isActive": true,
+    "stats": {
+      "gamesPlayed": 47,
+      "gamesWon": 23,
+      "winRate": 48.9,
+      "totalPlayTime": 14280,
+      "averageGameTime": 18.2,
+      "longestWinStreak": 5,
+      "currentStreak": 2,
+      "favoriteColor": "red",
+      "totalTokensHome": 156,
+      "tokensKilled": 34,
+      "sixesRolled": 89
+    },
+    "preferences": {
+      "soundEnabled": true,
+      "animationsEnabled": true,
+      "autoRoll": false,
+      "showHints": true
+    },
+    "joinedAt": "2024-01-01T10:00:00Z",
+    "lastSeen": "2024-01-15T14:30:00Z",
+    "level": 8,
+    "experience": 2340,
+    "achievements": ["first_win", "speed_demon", "comeback_king", "social_butterfly"]
+  },
+  {
+    "playerId": "player-002",
+    "playerName": "Sarah Victory",
+    "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612c5b3?w=150&h=150&fit=crop&crop=face",
+    "isActive": true,
+    "stats": {
+      "gamesPlayed": 62,
+      "gamesWon": 35,
+      "winRate": 56.5,
+      "totalPlayTime": 18720,
+      "averageGameTime": 19.5,
+      "longestWinStreak": 8,
+      "currentStreak": 1,
+      "favoriteColor": "blue",
+      "totalTokensHome": 198,
+      "tokensKilled": 42,
+      "sixesRolled": 117
+    },
+    "preferences": {
+      "soundEnabled": true,
+      "animationsEnabled": true,
+      "autoRoll": true,
+      "showHints": false
+    },
+    "joinedAt": "2023-12-15T08:30:00Z",
+    "lastSeen": "2024-01-15T16:45:00Z",
+    "level": 12,
+    "experience": 3780,
+    "achievements": ["first_win", "speed_demon", "strategist", "perfectionist", "champion"]
+  },
+  {
+    "playerId": "player-003",
+    "playerName": "Mike Champion",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h-150&fit=crop&crop=face",
+    "isActive": true,
+    "stats": {
+      "gamesPlayed": 38,
+      "gamesWon": 15,
+      "winRate": 39.5,
+      "totalPlayTime": 11400,
+      "averageGameTime": 17.8,
+      "longestWinStreak": 3,
+      "currentStreak": 0,
+      "favoriteColor": "green",
+      "totalTokensHome": 124,
+      "tokensKilled": 28,
+      "sixesRolled": 71
+    },
+    "preferences": {
+      "soundEnabled": false,
+      "animationsEnabled": true,
+      "autoRoll": false,
+      "showHints": true
+    },
+    "joinedAt": "2024-01-08T12:15:00Z",
+    "lastSeen": "2024-01-15T13:20:00Z",
+    "level": 5,
+    "experience": 1520,
+    "achievements": ["first_win", "persistence", "friendly_rival"]
+  },
+  {
+    "playerId": "player-004",
+    "playerName": "Luna Stardust",
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+    "isActive": true,
+    "stats": {
+      "gamesPlayed": 55,
+      "gamesWon": 28,
+      "winRate": 50.9,
+      "totalPlayTime": 16500,
+      "averageGameTime": 20.1,
+      "longestWinStreak": 6,
+      "currentStreak": 3,
+      "favoriteColor": "yellow",
+      "totalTokensHome": 178,
+      "tokensKilled": 39,
+      "sixesRolled": 103
+    },
+    "preferences": {
+      "soundEnabled": true,
+      "animationsEnabled": false,
+      "autoRoll": true,
+      "showHints": false
+    },
+    "joinedAt": "2023-12-20T14:00:00Z",
+    "lastSeen": "2024-01-15T15:10:00Z",
+    "level": 10,
+    "experience": 3120,
+    "achievements": ["first_win", "speed_demon", "tactician", "lucky_charm"]
+  },
+  {
+    "playerId": "player-005",
+    "playerName": "Zen Master",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+    "isActive": true,
+    "stats": {
+      "gamesPlayed": 71,
+      "gamesWon": 38,
+      "winRate": 53.5,
+      "totalPlayTime": 21300,
+      "averageGameTime": 18.9,
+      "longestWinStreak": 9,
+      "currentStreak": 0,
+      "favoriteColor": "red",
+      "totalTokensHome": 205,
+      "tokensKilled": 51,
+      "sixesRolled": 134
+    },
+    "preferences": {
+      "soundEnabled": false,
+      "animationsEnabled": true,
+      "autoRoll": false,
+      "showHints": false
+    },
+    "joinedAt": "2023-11-30T09:45:00Z",
+    "lastSeen": "2024-01-15T11:30:00Z",
+    "level": 15,
+    "experience": 4650,
+    "achievements": ["first_win", "speed_demon", "strategist", "grandmaster", "zen_mode"]
+  },
+  {
+    "playerId": "player-006",
+    "playerName": "Phoenix Rising",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
+    "isActive": true,
+    "stats": {
+      "gamesPlayed": 29,
+      "gamesWon": 11,
+      "winRate": 37.9,
+      "totalPlayTime": 8700,
+      "averageGameTime": 19.4,
+      "longestWinStreak": 2,
+      "currentStreak": 1,
+      "favoriteColor": "blue",
+      "totalTokensHome": 95,
+      "tokensKilled": 22,
+      "sixesRolled": 54
+    },
+    "preferences": {
+      "soundEnabled": true,
+      "animationsEnabled": true,
+      "autoRoll": false,
+      "showHints": true
+    },
+    "joinedAt": "2024-01-10T16:20:00Z",
+    "lastSeen": "2024-01-15T12:15:00Z",
+    "level": 3,
+    "experience": 890,
+    "achievements": ["first_win", "newcomer"]
+  },
+  {
+    "playerId": "player-007",
+    "playerName": "Dragon Slayer",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+    "isActive": true,
+    "stats": {
+      "gamesPlayed": 84,
+      "gamesWon": 52,
+      "winRate": 61.9,
+      "totalPlayTime": 25200,
+      "averageGameTime": 17.2,
+      "longestWinStreak": 12,
+      "currentStreak": 4,
+      "favoriteColor": "red",
+      "totalTokensHome": 268,
+      "tokensKilled": 67,
+      "sixesRolled": 158
+    },
+    "preferences": {
+      "soundEnabled": true,
+      "animationsEnabled": false,
+      "autoRoll": true,
+      "showHints": false
+    },
+    "joinedAt": "2023-11-15T11:00:00Z",
+    "lastSeen": "2024-01-15T17:00:00Z",
+    "level": 18,
+    "experience": 5940,
+    "achievements": ["first_win", "speed_demon", "strategist", "grandmaster", "legendary", "dragon_slayer"]
+  },
+  {
+    "playerId": "player-008",
+    "playerName": "Cosmic Wanderer",
+    "avatar": "https://images.unsplash.com/photo-1557862921-37829c790f19?w=150&h=150&fit=crop&crop=face",
+    "isActive": false,
+    "stats": {
+      "gamesPlayed": 15,
+      "gamesWon": 4,
+      "winRate": 26.7,
+      "totalPlayTime": 4500,
+      "averageGameTime": 21.3,
+      "longestWinStreak": 1,
+      "currentStreak": 0,
+      "favoriteColor": "blue",
+      "totalTokensHome": 48,
+      "tokensKilled": 11,
+      "sixesRolled": 28
+    },
+    "preferences": {
+      "soundEnabled": true,
+      "animationsEnabled": true,
+      "autoRoll": false,
+      "showHints": true
+    },
+    "joinedAt": "2024-01-12T19:30:00Z",
+    "lastSeen": "2024-01-14T20:45:00Z",
+    "level": 2,
+    "experience": 450,
+    "achievements": ["first_win"]
+  },
+  {
+    "playerId": "player-009",
+    "playerName": "Storm Breaker",
+    "avatar": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=150&h=150&fit=crop&crop=face",
+    "isActive": true,
+    "stats": {
+      "gamesPlayed": 43,
+      "gamesWon": 19,
+      "winRate": 44.2,
+      "totalPlayTime": 12900,
+      "averageGameTime": 18.7,
+      "longestWinStreak": 4,
+      "currentStreak": 1,
+      "favoriteColor": "green",
+      "totalTokensHome": 142,
+      "tokensKilled": 31,
+      "sixesRolled": 81
+    },
+    "preferences": {
+      "soundEnabled": false,
+      "animationsEnabled": false,
+      "autoRoll": true,
+      "showHints": false
+    },
+    "joinedAt": "2024-01-05T13:45:00Z",
+    "lastSeen": "2024-01-15T14:00:00Z",
+    "level": 6,
+    "experience": 1890,
+    "achievements": ["first_win", "storm_chaser", "resilient"]
+  },
+  {
+    "playerId": "player-010",
+    "playerName": "Golden Eagle",
+    "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop&crop=face",
+    "isActive": true,
+    "stats": {
+      "gamesPlayed": 67,
+      "gamesWon": 31,
+      "winRate": 46.3,
+      "totalPlayTime": 20100,
+      "averageGameTime": 19.8,
+      "longestWinStreak": 7,
+      "currentStreak": 2,
+      "favoriteColor": "yellow",
+      "totalTokensHome": 189,
+      "tokensKilled": 45,
+      "sixesRolled": 126
+    },
+    "preferences": {
+      "soundEnabled": true,
+      "animationsEnabled": true,
+      "autoRoll": false,
+      "showHints": true
+    },
+    "joinedAt": "2023-12-01T07:30:00Z",
+    "lastSeen": "2024-01-15T16:20:00Z",
+    "level": 11,
+    "experience": 3450,
+    "achievements": ["first_win", "speed_demon", "golden_touch", "patient_player"]
+  }
+]
