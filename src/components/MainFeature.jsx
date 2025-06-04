@@ -414,9 +414,9 @@ const MainFeature = () => {
                                   ${isYellowZone ? 'bg-gradient-to-br from-yellow-200 to-yellow-300' : ''}
                                 `}
                                 whileHover={{ scale: 1.1 }}
-                              >
+>
                                 {/* Home zone tokens */}
-                                {currentGame.players?.map(player => 
+                                {currentGame.players?.map((player, playerIndex) => 
                                   player.tokens?.filter(token => token.position === -1).map((token, tokenIndex) => {
                                     const shouldShow = (
                                       (isRedZone && player.color === 'red') ||
@@ -427,7 +427,7 @@ const MainFeature = () => {
                                     
                                     return shouldShow ? (
                                       <motion.div
-                                        key={token.tokenId}
+                                        key={`${player.playerId || playerIndex}-${token.tokenId || tokenIndex}-home`}
                                         className={`
                                           w-3 h-3 sm:w-4 sm:h-4 lg:w-5 lg:h-5 rounded-full border border-white shadow-sm cursor-pointer
                                           ${player.color === 'red' ? 'bg-players-red' : ''}
@@ -553,10 +553,10 @@ const MainFeature = () => {
                         Players
                       </h5>
                       
-                      <div className="space-y-3">
+<div className="space-y-3">
                         {currentGame.players?.map((player, index) => (
                           <motion.div
-                            key={player.playerId}
+                            key={`${player.playerId || `player-${index}`}-status`}
                             className={`
                               p-3 rounded-lg border-2 transition-all duration-300
                               ${index === currentPlayer 
@@ -601,7 +601,7 @@ const MainFeature = () => {
                             <div className="mt-2 flex space-x-1">
                               {player.tokens?.map((token, tokenIndex) => (
                                 <div
-                                  key={token.tokenId}
+                                  key={`${player.playerId || `player-${index}`}-${token.tokenId || `token-${tokenIndex}`}-indicator`}
                                   className={`
                                     w-2 h-2 rounded-full
                                     ${token.isHome ? 'bg-green-500' : 
