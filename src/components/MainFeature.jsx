@@ -654,14 +654,14 @@ const MainFeature = () => {
                     Congratulations to the winner! Ready for another round?
                   </p>
                   
-                  <motion.button
+<motion.button
                     onClick={() => {
                       setGamePhase('lobby')
                       setCurrentGame(null)
                       setCurrentPlayer(0)
                     }}
-                    className="bg-gradient-to-r from-primary to-primary-dark text-white px-8 py-4 rounded-xl font-heading font-semibold text-lg shadow-card hover:shadow-lg transition-all duration-200 flex items-center space-x-2 mx-auto"
-                    whileHover={{ scale: 1.05, y: -3 }}
+                    className="bg-ludo-gradient text-white px-12 py-6 rounded-3xl font-display font-normal text-2xl shadow-ludo-dice hover:shadow-ludo-glow transition-all duration-300 flex items-center space-x-4 mx-auto"
+                    whileHover={{ scale: 1.08, y: -4 }}
                     whileTap={{ scale: 0.95 }}
                   >
                     <ApperIcon name="RotateCcw" className="w-6 h-6" />

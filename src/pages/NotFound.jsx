@@ -59,11 +59,11 @@ const NotFound = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8 }}
         >
-          <Link
+<Link
             to="/"
-            className="inline-flex items-center space-x-2 bg-gradient-to-r from-primary to-primary-dark text-white px-8 py-4 rounded-xl font-heading font-semibold text-lg shadow-card hover:shadow-lg transition-all duration-200 group"
+            className="inline-flex items-center space-x-3 bg-white text-primary px-10 py-5 rounded-3xl font-display font-normal text-xl shadow-ludo-dice hover:shadow-ludo-glow transition-all duration-300 group"
           >
-            <ApperIcon name="Home" className="w-6 h-6 group-hover:scale-110 transition-transform" />
+            <ApperIcon name="Home" className="w-7 h-7 group-hover:scale-110 transition-transform" />
             <span>Back to Game</span>
           </Link>
         </motion.div>

@@ -6,9 +6,9 @@ import Home from './pages/Home'
 import NotFound from './pages/NotFound'
 
 function App() {
-  return (
+return (
     <Router>
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
+      <div className="min-h-screen bg-ludo-gradient">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="*" element={<NotFound />} />
@@ -26,7 +26,8 @@ function App() {
           pauseOnHover
           theme="light"
           className="mt-16"
-          toastClassName="font-sans text-sm"
+          toastClassName="font-sans text-sm rounded-2xl"
+          bodyClassName="font-medium"
         />
       </div>
     </Router>

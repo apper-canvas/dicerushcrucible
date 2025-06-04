@@ -130,17 +130,17 @@ const Home = () => {
             ].map((stat, index) => (
               <motion.div 
                 key={index}
-                className="glass-effect p-4 sm:p-6 rounded-xl shadow-card text-center"
-                whileHover={{ scale: 1.05, y: -5 }}
-                transition={{ type: "spring", stiffness: 300 }}
+className="bg-white/95 backdrop-blur-md p-6 sm:p-8 rounded-3xl shadow-ludo-board text-center border-2 border-white/50"
+                whileHover={{ scale: 1.08, y: -8 }}
+                transition={{ type: "spring", stiffness: 400 }}
               >
-                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center mx-auto mb-2 sm:mb-3">
-                  <ApperIcon name={stat.icon} className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+                <div className="w-14 h-14 sm:w-16 sm:h-16 bg-ludo-gradient rounded-2xl flex items-center justify-center mx-auto mb-3 sm:mb-4 shadow-ludo-token">
+                  <ApperIcon name={stat.icon} className="w-7 h-7 sm:w-8 sm:h-8 text-white" />
                 </div>
-                <p className="text-lg sm:text-xl lg:text-2xl font-heading font-bold text-gray-900">
+                <p className="text-xl sm:text-2xl lg:text-3xl font-display font-normal text-orange-800">
                   {stat.value}
                 </p>
-                <p className="text-sm sm:text-base text-gray-600">{stat.label}</p>
+                <p className="text-sm sm:text-base text-orange-600 font-semibold">{stat.label}</p>
               </motion.div>
             ))}
           </motion.div>
